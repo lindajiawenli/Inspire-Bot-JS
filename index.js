@@ -12,20 +12,20 @@ const mySecret = process.env['TOKEN']
 
 const invokeKungFuPanda = ["Po", "Tigress", "Monkey", "Viper", "Crane", "Mantis", "Shifu", "Oogway"]
 
-const starterKungFuPandaQuotes = ["'One often meets his destiny on the road he takes to avoid it.' -Master Oogway", 
-"'Don't Quit.' -Master Oogway", 
-"'You are too concerned with what was and what will be.'' -Master Oogway", 
-"'There is a saying: Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.' -Master Oogway", 
-"'A real warrior never quits' -Po", 
-"'There are no accidents' -Master Oogway", 
-"'Look at this tree. I cannot make it blossom when it suits me, nor make it bear fruit before its time. No matter what you do that seed will grow to be a peach tree. You may wish for an apple or an orange, but you will get a peach.' -Master Oogway", 
-"'The mark of a true hero is humility.' -Shifu", 
-"'There is no secret ingredient. Don't have to. To make something special, you just believe it's special.' -Mr. Ping",
-"'You gotta let go of that stuff from the past because it just doesn't matter. The only thing that matters is what you choose to be now.' -Po", 
-"'The more you take, the less you have.' -Master Oogway", 
-"'There is always something more to learn, even for a master.' -Po", 
-"'If you only do what you can do, you will never be more than you are now.' -Shifu", 
-"'Sometimes, we do the wrong things for the right reasons.' -Mr. Ping"]
+const starterKungFuPandaQuotes = ["\'One often meets his destiny on the road he takes to avoid it.\' -Master Oogway", 
+"\'Don't Quit.\' -Master Oogway", 
+"\'You are too concerned with what was and what will be.\'' -Master Oogway", 
+"\'There is a saying: Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.\' -Master Oogway", 
+"\'A real warrior never quits\' -Po", 
+"\'There are no accidents\' -Master Oogway", 
+"\'Look at this tree. I cannot make it blossom when it suits me, nor make it bear fruit before its time. No matter what you do that seed will grow to be a peach tree. You may wish for an apple or an orange, but you will get a peach.\' -Master Oogway", 
+"\'The mark of a true hero is humility.\' -Shifu", 
+"\'There is no secret ingredient. Don't have to. To make something special, you just believe it's special.\' -Mr. Ping",
+"\'You gotta let go of that stuff from the past because it just doesn't matter. The only thing that matters is what you choose to be now.\' -Po", 
+"\'The more you take, the less you have.\' -Master Oogway", 
+"\'There is always something more to learn, even for a master.\' -Po", 
+"\'If you only do what you can do, you will never be more than you are now.\' -Shifu", 
+"\'Sometimes, we do the wrong things for the right reasons.\' -Mr. Ping"]
 
 db.get("responding").then(val => {
   if (val == null) {
